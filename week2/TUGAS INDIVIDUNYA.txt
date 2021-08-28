@@ -1,0 +1,17 @@
+Lakukan pengujian terhadap app anda dengan skenario di bawah ini:
+================================================================================
+a. Kosongkan Angka 1 dan Angka 2, lalu klik salah satu button
+
+Aplikasi langsung Crash karena dia menerima input berupa NaN/empty. Solusi yang tepat
+adalah untuk memberikan conditional jika tidak ada input, maka munculkan error.
+
+
+b. Kosongkan Angka 2, lalu klik button Bagi.
+
+Aplikasi langsung Crash karena salah satu input berupa NaN/empty. Solusi yang tepat adalah
+seperti soal a
+
+
+c. Isi 0 (nol) pada Agka 2, lalu klik button Bagi.
+
+Hasilnya "Infinity".
