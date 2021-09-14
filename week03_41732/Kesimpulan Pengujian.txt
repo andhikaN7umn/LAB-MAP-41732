@@ -1,3 +1,8 @@
+<<<<<<< HEAD
 Ketika diklik, tulisan "pernah diklik" muncul.
 Ketika ditambahkan, muncul sebuah popup "Kata x ditambahkan"
+=======
+Ketika diklik, tulisan "pernah diklik" muncul.
+Ketika ditambahkan, muncul sebuah popup "Kata x ditambahkan"
+>>>>>>> daaa7ac05079c412185226a68471c9ddc796a8de
 Ketika kata yang ditambahkan diklik, muncul tulisan "Kata x pernah diklik ditambahkan"
