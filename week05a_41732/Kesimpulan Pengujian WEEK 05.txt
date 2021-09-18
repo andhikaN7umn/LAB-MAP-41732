@@ -1,0 +1,3 @@
+Ketika warna R, G, B dicampur, akan membuat warna baru.
+
+Ketika clear ditekan, menghilangkan semua gambar dan mengulang dari awal.
