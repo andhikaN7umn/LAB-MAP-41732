@@ -1,0 +1,14 @@
+Activity A:
+
+- Ketika screen di klik, muncul lingkaran yang seiring waktu expand dengan warna yang berbeda
+
+
+Activity B:
+
+- Ketika screen di klik, animasi kuda berjalan.
+
+
+Activity C:
+
+- Ketika tombol "Halo spring" di klik, tombolnya mantul seperti spring
+- Ketika tombol "Halo fling" di klik, tombolnya berputar seperti ter"fling"
