@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="8"
+    android:layout_marginTop="12dp"
+    android:layout_marginBottom="12dp"
+    android:layout_marginEnd="12dp"
+    android:id="@+id/sfxList">
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/ic_baseline_volume_up_24"
+        android:layout_weight="1"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="6">
+
+        <TextView
+            android:id="@+id/sfxName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="SFX Name" />
+
+        <TextView
+            android:id="@+id/sfxType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Type" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/deleteSfx"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_weight="1"
+        android:src="@drawable/ic_baseline_delete_24"
+        android:background="#F64B4B"
+        android:layout_gravity="center" />
+
+</LinearLayout>

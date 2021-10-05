@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Andhika Nugraha WP (41732) - UTS</string>
+    <string name="profileB">Profile</string>
+    <string name="libraryB">Library</string>
+    <string name="playSFXButton">PLAY SFX</string>
+    <string name="loginPage">LOGIN PAGE</string>
+    <string name="nextB">Next</string>
+    <string name="loginTextHint">Masukkan nama anda...</string>
+    <string name="titleProject">SFX Library and Previewer</string>
+    <string name="iconDesc">sfx icon</string>
+    <string name="sfxNameD">sfx name</string>
+    <string name="sfxTypeD">sfx desc</string>
+
+    <string name="myNameProfile">Andhika Nugraha Wira Pratama</string>
+    <string name="nimText">00000041732</string>
+    <string name="classText">IF 570 - EL</string>
+    <string name="referenceText">REFERENSI:</string>
+
+    <string name="link1"><a href="https://www.google.com">https://www.google.com</a></string>
+    <string name="link2"><a href="https://stackoverflow.com">https://stackoverflow.com</a></string>
+    <string name="link3"><a href="https://www.youtube.com">https://www.youtube.com</a></string>
+    <string name="link4"><a href="https://developer.android.com">https://developer.android.com</a></string>
+    <string name="link5"><a href="https://learntodroid.com">https://learntodroid.com</a></string>
+
+
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#317877">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="#BA77EA"
+            android:padding="25dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/loginPage"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="10dp"/>
+
+            <EditText
+                android:id="@+id/namaTextBox"
+                android:layout_width="220dp"
+                android:layout_height="45dp"
+                android:background="@drawable/text_border"
+                android:hint="@string/loginTextHint"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:maxLines="1"
+                android:inputType="text"
+                android:maxLength="42"
+                android:layout_marginBottom="10dp"/>
+
+            <Button
+                android:id="@+id/btnNext"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:text="@string/nextB" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
